@@ -1,10 +1,10 @@
 package co.parcial.modelo;
 
-public class country {
+public class Country {
 	private int id;
     private String country;
 
-    public country(int id, String country) {
+    public Country(int id, String country) {
         this.id = id;
         this.country = country;
     }

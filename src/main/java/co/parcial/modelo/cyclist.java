@@ -1,71 +1,68 @@
 package co.parcial.modelo;
 
-import java.util.Date;
+public class Cyclist {
+	 private int id;
+	    private String name;
+	    private String email;
+	    private String birthdate;
+	    private String country;
+	    private String team;
 
-public class cyclist {
-    private int id;
-    private String name;
-    private String email;
-    private Date birthdate;
-    private String country;
-    private String team;
+	    public Cyclist(int id, String name, String email, String birthdate, String country, String team) {
+	        this.id = id;
+	        this.name = name;
+	        this.email = email;
+	        this.birthdate = birthdate;
+	        this.country = country;
+	        this.team = team;
+	    }
 
-    public cyclist(int id, String name, String email, Date birthdate, String country, String team) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.birthdate = birthdate;
-        this.country = country;
-        this.team = team;
-    }
+	    public int getId() {
+	        return id;
+	    }
 
-    public int getId() {
-        return id;
-    }
+	    public void setId(int id) {
+	        this.id = id;
+	    }
 
-    public void setId(int id) {
-        this.id = id;
-    }
+	    public String getName() {
+	        return name;
+	    }
 
-    public String getName() {
-        return name;
-    }
+	    public void setName(String name) {
+	        this.name = name;
+	    }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	    public String getEmail() {
+	        return email;
+	    }
 
-    public String getEmail() {
-        return email;
-    }
+	    public void setEmail(String email) {
+	        this.email = email;
+	    }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+	    public String getBirthdate() {
+	        return birthdate;
+	    }
 
-    public Date getBirthdate() {
-        return birthdate;
-    }
+	    public void setBirthdate(String birthdate) {
+	        this.birthdate = birthdate;
+	    }
 
-    public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
-    }
+	    public String getCountry() {
+	        return country;
+	    }
 
-    public String getCountry() {
-        return country;
-    }
+	    public void setCountry(String country) {
+	        this.country = country;
+	    }
 
-    public void setCountry(String country) {
-        this.country = country;
-    }
+	    public String getTeam() {
+	        return team;
+	    }
 
-    public String getTeam() {
-        return team;
-    }
-
-    public void setTeam(String team) {
-        this.team = team;
-    }
-    
-    
+	    public void setTeam(String team) {
+	        this.team = team;
+	    }
+	    
 }
