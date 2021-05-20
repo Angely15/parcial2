@@ -97,7 +97,7 @@ public class cyclistDao {
 				String country = rs.getString("country");
 				String birthdate = rs.getString("birthdate");
 				String team = rs.getString("team");
-				cyclist = new Cyclist(id, name, email, birthdate, country, team)
+				cyclist = new Cyclist(id, name, email, birthdate, country, team);
 			}
 		} catch (SQLException e) {
 			// TODO: handle exception

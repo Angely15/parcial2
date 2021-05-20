@@ -15,12 +15,13 @@ public class Conexion {
 	private static final String dbName = "mnjgxshj";
 	private static final String driver = "org.postgresql.Driver";
 	private static final String userName = "mnjgxshj";
+	private static final String port = "5432";
 	private static final String password = "Uzjqo00sxV0W9OzPEB1q3wpoVvGMbbUV";
 
 	public Conexion() {
 		try {
 			Class.forName("con.mysql.jdbc.Driver").newInstance();
-			con = DriverManager.getConnection(url + dbName, userName, password);
+			con = DriverManager.getConnection(url+":"+port+"/"+ dbName, userName, password);
 			System.out.print("vamos bien");
 		} catch (InstantiationException |IllegalAccessException |ClassNotFoundException | SQLException e) {
 			System.out.print("error");
