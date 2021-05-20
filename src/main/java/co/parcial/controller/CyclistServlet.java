@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import co.empresa.TestCrud.modelo.Usuario;
 import co.parcial.dao.countryDao;
 import co.parcial.dao.cyclistDao;
 import co.parcial.dao.teamDao;
